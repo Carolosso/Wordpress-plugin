@@ -51,19 +51,23 @@ form{
   padding: 10px;
   font-weight: 700;
   font-size: 20px;
+}
+
+h1 img{
+  margin-right:12px;
+}
+
+#mbkp_info{
+  display:none;
+  font-size:16px;
+  color: white; 
+  background-color:#007cba;
+  padding: 25px;
+  position:center;
+  border-radius:5px;
   }
-  h1 img{
-    margin-right:12px;
-  }
-  #mbkp_info{
-    display:none;
-    font-size:16px;
-    color: white; 
-    background-color:#007cba;
-    padding: 25px;
-    position:center;
-    border-radius:5px;
-  }
+
+
 </style>
 <div class="wrap">
 <div>
@@ -80,7 +84,7 @@ form{
 <script type="text/javascript" src="/clappr.min.js"></script>
 <div id="player"></div>
 <p><script>
-    var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/kosciolnowadeba.m3u8", parentId: "#player"});
+  //  var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/kosciolnowadeba.m3u8", parentId: "#player"});
 </script></p>
 -->
 <div class="mbkp_input"><input type="radio"  name="raz" value="off" >
@@ -90,7 +94,7 @@ form{
 <script type="text/javascript" src="/clappr.min.js"></script>
 <div id="player"></div>
 <p><script>
-    var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/hlgtv.m3u8", parentId: "#player"});
+   // var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/hlgtv.m3u8", parentId: "#player"});
 </script></p>
 -->
 <div class="mbkp_input"><input type="submit" class="button-primary" name="submit" value="Zastosuj"></div>
@@ -140,8 +144,6 @@ if ($_POST['submit']){
   }, 3000);
 </script>
 <?php
-
-
 } 
 ?> 
 </div>
