@@ -4,6 +4,7 @@
  * Description: Wtyczka obsługująca obraz z kamery na stronie internetowej
  * Version: 1.0.0
  * Author: WB-MIL
+ * Plugin URI: https://github.com/Carolosso/Wordpress-Plugin
  */
 
 
