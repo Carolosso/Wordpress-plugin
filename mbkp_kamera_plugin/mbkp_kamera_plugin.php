@@ -7,7 +7,7 @@
  * Plugin URI: https://github.com/Carolosso/Wordpress-Plugin
  */
 
- // 'security' 
+ // 'security'
 if (!defined('ABSPATH')) {
   exit;
 }
