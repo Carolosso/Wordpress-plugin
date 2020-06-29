@@ -7,7 +7,10 @@
  * Plugin URI: https://github.com/Carolosso/Wordpress-Plugin
  */
 
-
+ // 'security' 
+if (!defined('ABSPATH')) {
+  exit;
+}
  /// KAMERA KOŚCIELNA/STATYCZNA WYLACZONA /////
 function mbkp_offline(){
 
