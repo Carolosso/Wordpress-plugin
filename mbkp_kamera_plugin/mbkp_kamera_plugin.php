@@ -14,7 +14,7 @@ function mbkp_offline(){
   $display.='<div>';
   $display.='<script type="text/javascript" src="/clappr.min.js"></script>';
   $display.='<div id="player"></div>';
-  $display.='<p><script> var player = new Clappr.Player({width:"100%",height:"30vw",source: "http://stream.hlg.com.pl/hlgtv.m3u8", parentId: "#player"});</script></p>';
+  $display.='<p><script> var player = new Clappr.Player({width:"100%",height:"30vw",source: "http://stream.hlg.com.pl/hlgtv.m3u8", parentId: "#player", autoPlay:true});</script></p>';
   $display.='</div>';
 return $display;
 }
@@ -28,7 +28,7 @@ function mbkp_online(){
     $display.='<div>';
     $display.='<script type="text/javascript" src="/clappr.min.js"></script>';
     $display.='<div id="player"></div>';
-    $display.='<p><script> var player = new Clappr.Player({width:"100%",height:"30vw",source: "http://stream.hlg.com.pl/kosciolnowadeba.m3u8", parentId: "#player"});</script></p>';
+    $display.='<p><script> var player = new Clappr.Player({width:"100%",height:"30vw",source: "http://stream.hlg.com.pl/kosciolnowadeba.m3u8", parentId: "#player", autoPlay:true});</script></p>';
    $display.='</div>';
   return $display;
 }
@@ -84,7 +84,7 @@ h1 img{
 <script type="text/javascript" src="/clappr.min.js"></script>
 <div id="player"></div>
 <p><script>
-  //  var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/kosciolnowadeba.m3u8", parentId: "#player"});
+  //  var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/kosciolnowadeba.m3u8", parentId: "#player", autoPlay:true});
 </script></p>
 -->
 <div class="mbkp_input"><input type="radio"  name="raz" value="off" >
@@ -94,7 +94,7 @@ h1 img{
 <script type="text/javascript" src="/clappr.min.js"></script>
 <div id="player"></div>
 <p><script>
-   // var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/hlgtv.m3u8", parentId: "#player"});
+   // var player = new Clappr.Player({width:"30%",height:"100px",source: "http://stream.hlg.com.pl/hlgtv.m3u8", parentId: "#player", autoPlay:true});
 </script></p>
 -->
 <div class="mbkp_input"><input type="submit" class="button-primary" name="submit" value="Zastosuj"></div>
